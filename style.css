@@ -25,4 +25,17 @@ th { background: #eee; }
 footer { background: #222; color: #ccc; text-align: center; padding: 20px; font-size: 0.8rem; }
 
 .features { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+/* Adicione isso ao final do seu style.css */
+.card-regra {
+    background: #f9f9f9;
+    border-left: 5px solid #004d40;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.card-regra h3 {
+    margin-top: 0;
+    color: #004d40;
+}
+
 .item { background: #f4f4f4; padding: 10px; border-radius: 4px; }
